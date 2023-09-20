@@ -34,7 +34,7 @@
 
 ### Github Stats
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=AjiNurAji&theme=ayu-mirage&show_icons=true&count_private=true" width="100%" /> <img src="https://github-readme-streak-stats.herokuapp.com/?user=AjiNurAji&theme=ayu-mirage&hide_border=false&date_format=j%20M%5B%20Y%5D&locale=id" width="100%" /> <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=AjiNurAji&theme=ayu-mirage&hide_border=false&no-bg=true&no-frame=true&langs_count=10" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api?username=AjiNurAji&theme=ayu-mirage&show_icons=true&count_private=true"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=AjiNurAji&theme=ayu-mirage&hide_border=false&date_format=j%20M%5B%20Y%5D&locale=id"/> <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=AjiNurAji&theme=ayu-mirage&hide_border=false&no-bg=true&no-frame=true&langs_count=10" />
 </p>
 
 <br>
