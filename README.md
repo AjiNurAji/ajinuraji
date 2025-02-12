@@ -1,5 +1,4 @@
-### Hi 👋, 
-## I'am Aji Nur Aji
+## Hi 👋, I'am Aji Nur Aji
 ### 👨‍🦰 About Me 
 - 🤓 I,m interested in Frontend, Backend
 - 🌱 I'm currently learning Laravel, T3 Stack
@@ -35,9 +34,11 @@
 ## 📊 Github Stats
 
 <p align="left">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=AjiNurAji&theme=ayu-mirage&show_icons=true&count_private=true"/> 
-  <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=AjiNurAji&theme=ayu-mirage&hide_border=false&date_format=j%20M%5B%20Y%5D&locale=id"/> 
-  <img width="100%" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=AjiNurAji&theme=ayu-mirage&hide_border=false&no-bg=true&no-frame=true&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AjiNurAji&theme=ayu-mirage&show_icons=true&count_private=true"/> 
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AjiNurAji&theme=ayu-mirage&hide_border=false&date_format=j%20M%5B%20Y%5D&locale=id"/> 
+  <br />
+  <img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=AjiNurAji&theme=ayu-mirage&hide_border=false&no-bg=true&no-frame=true&layout=compact" />
 </p>
 
 <br>
