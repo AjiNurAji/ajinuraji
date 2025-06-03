@@ -1,7 +1,7 @@
 ## Hi 👋, I'am Aji Nur Aji
 ### 👨‍🦰 About Me 
 - 🤓 I,m interested in Frontend, Backend
-- 🌱 I'm currently learning Laravel, T3 Stack
+- 🌱 I'm currently learning Laravel, Mern Project
 
 <br>
 
