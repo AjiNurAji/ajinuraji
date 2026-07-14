@@ -7,13 +7,14 @@ on:
 
 jobs:
   rotate:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - name: generate random gradient capsule url
         shell: bash
         run: |
-          # Generate two clean random hex colors
           color1=$(printf '%02X%02X%02X' $((RANDOM % 256)) $((RANDOM % 256)) $((RANDOM % 256)))
           color2=$(printf '%02X%02X%02X' $((RANDOM % 256)) $((RANDOM % 256)) $((RANDOM % 256)))
           url="https://capsule-render.vercel.app/api?type=waving&color=${color1},${color2}&height=280&section=header&text=Hey%2C%20I'm%20Aji%20Nur%20Aji&fontSize=58&animation=fadeIn2&fontAlignY=42&desc=Full-Stack%20Developer%20%7C%20Informatics%20Student&descSize=20&descAlignY=60"
@@ -25,16 +26,17 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v4
 
-      - name: download capsule svg
+      - name: download capsule and logo assets
         shell: bash
         run: |
           mkdir -p dist
-          curl -L -o dist/capsule-header.svg "${{ env.capsule_url }}"
+          curl -sSL -o dist/ana.svg "https://ajinuraji.my.id/ana.svg"
+          curl -sSL -o dist/capsule-base.svg "${{ env.capsule_url }}"
 
-      - name: update capsule url in readme
+      - name: build composite header with logo overlay
         shell: bash
         run: |
-          sed -i 's#https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/capsule-header\.svg#https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/capsule-header.svg#g' README.md
+          python3 .github/scripts/build-capsule-header.py "${{ env.color1 }}" "${{ env.color2 }}"
 
       - name: push capsule assets to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
