@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&section=header&text=Hey%2C%20I'm%20Aji%20Nur%20Aji&fontSize=58&animation=fadeIn2&fontAlignY=42&desc=Full-Stack%20Developer%20%7C%20Informatics%20Student&descSize=20&descAlignY=60" alt="Capsule Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B6B,4ECDC4&height=280&section=header&text=Hey%2C%20I'm%20Aji%20Nur%20Aji&fontSize=58&animation=fadeIn2&fontAlignY=42&desc=Full-Stack%20Developer%20%7C%20Informatics%20Student&descSize=20&descAlignY=60" alt="Capsule Header" width="100%" />
 </p>
 
 <div align="center">
@@ -86,7 +86,6 @@ These are the defaults I design around:
 
 ### 🐍 Contribution Snake
 
-> Auto-generated from my GitHub contribution graph via GitHub Actions.
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/github-contribution-grid-snake-dark.svg">
@@ -94,6 +93,8 @@ These are the defaults I design around:
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
+
+> Auto-generated from my GitHub contribution graph via GitHub Actions.
 
 ---
 

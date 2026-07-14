@@ -1,0 +1,43 @@
+name: rotate capsule gradient
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: generate random gradient capsule url
+        shell: bash
+        run: |
+          # Generate two clean random hex colors
+          color1=$(printf '%02X%02X%02X' $((RANDOM % 256)) $((RANDOM % 256)) $((RANDOM % 256)))
+          color2=$(printf '%02X%02X%02X' $((RANDOM % 256)) $((RANDOM % 256)) $((RANDOM % 256)))
+          url="https://capsule-render.vercel.app/api?type=waving&color=${color1},${color2}&height=280&section=header&text=Hey%2C%20I'm%20Aji%20Nur%20Aji&fontSize=58&animation=fadeIn2&fontAlignY=42&desc=Full-Stack%20Developer%20%7C%20Informatics%20Student&descSize=20&descAlignY=60"
+          echo "color1=$color1" >> $GITHUB_ENV
+          echo "color2=$color2" >> $GITHUB_ENV
+          echo "capsule_url=$url" >> $GITHUB_ENV
+          echo "Generated capsule URL: $url"
+
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: update capsule url in readme
+        shell: bash
+        run: |
+          new_url="${{ env.capsule_url }}"
+          # Replace the capsule render src in README.md
+          sed -i 's#https://capsule-render\.vercel\.app/api?type=waving&color=[^"]*#'"$new_url"'#' README.md
+
+      - name: commit and push
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore(profile): rotate capsule gradient to #${{ env.color1 }}/#${{ env.color2 }}"
+          git push origin HEAD:main
