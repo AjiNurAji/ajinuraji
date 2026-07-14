@@ -25,19 +25,21 @@ jobs:
       - name: checkout repository
         uses: actions/checkout@v4
 
+      - name: download capsule svg
+        shell: bash
+        run: |
+          mkdir -p dist
+          curl -L -o dist/capsule-header.svg "${{ env.capsule_url }}"
+
       - name: update capsule url in readme
         shell: bash
         run: |
-          new_url="${{ env.capsule_url }}"
-          # Replace the capsule render src in README.md
-          sed -i 's#https://capsule-render\.vercel\.app/api?type=waving&color=[^"]*#'"$new_url"'#' README.md
+          sed -i 's#https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/capsule-header\.svg#https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/capsule-header.svg#g' README.md
 
-      - name: commit and push
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "chore(profile): rotate capsule gradient to #${{ env.color1 }}/#${{ env.color2 }}"
-          git push origin HEAD:main
+      - name: push capsule assets to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

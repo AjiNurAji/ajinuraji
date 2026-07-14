@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B6B,4ECDC4&height=280&section=header&text=Hey%2C%20I'm%20Aji%20Nur%20Aji&fontSize=58&animation=fadeIn2&fontAlignY=42&desc=Full-Stack%20Developer%20%7C%20Informatics%20Student&descSize=20&descAlignY=60" alt="Capsule Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/capsule-header.svg" alt="Capsule Header" width="100%" />
 </p>
 
 <div align="center">
