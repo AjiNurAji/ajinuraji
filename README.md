@@ -1,74 +1,113 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hello!%20I'm%20Aji%20Nur%20Aji&fontSize=50&animation=fadeIn&fontAlignY=38&desc=Frontend%20&%20Backend%20Developer&descAlignY=51&descAlign=62"/>
-</div>
-
-<h3 align="center">A passionate developer crafting beautiful web experiences</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=360&section=header&text=Hello%2C%20I'm%20Aji%20Nur%20Aji&fontSize=60&animation=fadeIn2&fontAlignY=40&desc=Full-Stack%20Developer%20%7C%20Indonesia&descAlignY=54&descAlign=62" />
+</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AjiNurAji&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <a href="https://ajinuraji.my.id">
+    <img src="https://img.shields.io/badge/Portfolio-ajinuraji.my.id-2563EB?style=for-the-badge&logo=globe&logoColor=white" />
+  </a>
+  <a href="https://github.com/AjiNurAji">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/ajinuraji">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=AjiNurAji&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
 </p>
 
 ---
 
-### 👨‍💻 About Me
+### ✨ About Me
 
-*   🔭 **Currently focused on:** Crafting beautiful, responsive, and user-friendly web applications.
-*   🌱 **Constantly learning:** Deepening my knowledge in **Laravel** and the **MERN Stack** to build robust full-stack solutions.
-*   🤝 **Open to collaborate on:** Innovative web development projects and open-source initiatives.
-*   💡 **My philosophy:** Code is like humor. When you have to explain it, it’s bad. Let's write clean and readable code!
-*   ⚡ **Fun fact:** I love turning complex problems into simple, beautiful, and intuitive designs!
+Hey, I’m **Aji Nur Aji** — a full-stack developer from **Indonesia** who builds things that are actually useful.
+
+I care more about *clarity* than cleverness. My work lives between React/Next.js on the frontend, Laravel/Node on the backend, and just enough Python side-quests in Colab to keep things interesting.
+
+My rule: **if it needs a tour guide, it’s bad.**
 
 ---
 
-### 🛠️ Programming Stack
+### 🧭 Currently
 
-**Frontend**
+- 🔭 **Building in public**: JokSkuy and other full-stack apps, from idea to launch
+- 🌱 **Deep-diving**: Laravel internals, modern backend patterns, and DX-first workflows
+- 🤝 **Open to meaningful collaboration** on real products, not just toy projects
+- ⚡ **Motto**: Clarity first. If it needs explaining, rewrite it.
+
+---
+
+### 🛠️ Tech Stack
+
+#### Frontend
 <p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,next,vue,bootstrap,tailwind" />
 </p>
 
-**Backend & Database**
+#### Backend & Database
 <p align="left">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" />
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,python,mysql,postgres" />
+</p>
+<p align="left">
+  Python is also used for data/ML experiments via Google Colab notebooks stored in Google Drive.
 </p>
 
-**Deployment, Tools & Others**
+#### Tools & Infrastructure
 <p align="left">
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
-  <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white" />
-  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white" />
-  <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,netlify,figma,docker" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Activity & Languages
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AjiNurAji&theme=tokyonight&show_icons=true&count_private=true&hide_border=true" />
-  <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AjiNurAji&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=id" />
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AjiNurAji&theme=tokyonight&hide_border=true&layout=compact" />
+  <img src="https://streak-stats.demolab.com/?user=AjiNurAji&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=en" />
+</div>
+
+<div align="center">
+  <img src="https://gh-readme-stats.vercel.app/api?username=AjiNurAji&theme=tokyonight&show_icons=true&count_private=true&hide_border=true" height="180px" />
+  <img height="10px" />
+  <img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=AjiNurAji&theme=tokyonight&hide_border=true&layout=compact" height="180px" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AjiNurAji&theme=tokyonight&margin-h=15&margin-w=5&no-bg=true" width="100%" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 </div>
 
-<br>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" width="100%" alt="snake eating contributions" />
+</div>
+
+---
+
+### 💡 Philosophy
+
+> “Build for clarity. Delete ruthlessly. Ship the thing.”
+
+I believe great software usually means **less** code, **better** structure, and **fewer** assumptions.
+
+---
+
+### 📫 Reach Out
+
+<p align="center">
+  <a href="https://ajinuraji.my.id">
+    <img src="https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=globe&logoColor=white" />
+  </a>
+  <a href="https://github.com/AjiNurAji">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/ajinuraji">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20to%20collaborate-success?style=for-the-badge&logo=handshake&logoColor=white" />
+</p>
+
+<p align="center">
+  <sub>Crafted with clean Markdown. Focused on real impact.</sub>
+</p>
