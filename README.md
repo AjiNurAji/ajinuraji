@@ -85,11 +85,13 @@ These are the defaults I design around:
 ---
 
 ### 🐍 Contribution Snake
+
+> Auto-generated from my GitHub contribution graph via GitHub Actions.
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg?user=AjiNurAji">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg?user=AjiNurAji">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg?user=AjiNurAji" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
 
