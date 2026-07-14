@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B6B,4ECDC4&height=280&section=header&text=Hey%2C%20I'm%20Aji%20Nur%20Aji&fontSize=58&animation=fadeIn2&fontAlignY=42&desc=Full-Stack%20Developer%20%7C%20Indonesia&descSize=20&descAlignY=60" alt="Capsule Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF6B6B,4ECDC4&height=280&section=header&text=Hey%2C%20I'm%20Aji%20Nur%20Aji&fontSize=58&animation=fadeIn2&fontAlignY=42&desc=Full-Stack%20Developer%20%7C%20Informatics%20Student&descSize=20&descAlignY=60" alt="Capsule Header" width="100%" />
 </p>
 
 <div align="center">
@@ -23,7 +23,7 @@
 
 ### 👨‍💻 About Me
 
-I’m **Aji Nur Aji**, a full-stack developer from **Indonesia** who builds things that are actually useful — not just impressive in a README.
+I’m **Aji Nur Aji**, a full-stack developer from **Indonesia** and an informatics student who builds things that are actually useful — not just impressive in a README.
 
 I care more about **clarity** than cleverness. My work spans:
 - React / Next.js for modern interfaces
@@ -87,9 +87,9 @@ These are the defaults I design around:
 ### 🐍 Contribution Snake
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-light.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ajinuraji/ajinuraji/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ajinuraji/ajinuraji/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ajinuraji/ajinuraji/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
 
