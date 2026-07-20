@@ -1,5 +1,5 @@
 <a align="center" href="https://ajinuraji.my.id">
-  [<img src="https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/capsule-header.svg" alt="Capsule Header" width="100%" />](https://capsule-render.vercel.app/api?type=pulse&height=300&color=gradient&text=ANA&section=header&reversal=true&textBg=false&animation=blink&stroke=ff0000&fontColor=ffffff&strokeWidth=40&desc=Full%20Stack%20Web%20Development&descSize=12&descAlign=0)
+  <img src="https://capsule-render.vercel.app/api?type=egg&height=300&color=gradient&text=AJINURAJI&section=header&reversal=true&textBg=false&animation=blink&fontColor=ffffff&strokeWidth=0&desc=Informatics%20Student%20|%20Full%20Stack%20-%20Web%20Development&descSize=12&descAlign=0" alt="Aji Nur Aji" />
 </a>
 
 <div align="center">
