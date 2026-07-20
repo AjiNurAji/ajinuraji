@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/capsule-header.svg" alt="Capsule Header" width="100%" />
-</p>
+<a align="center" href="https://ajinuraji.my.id">
+  [<img src="https://raw.githubusercontent.com/AjiNurAji/ajinuraji/output/capsule-header.svg" alt="Capsule Header" width="100%" />](https://capsule-render.vercel.app/api?type=pulse&height=300&color=gradient&text=ANA&section=header&reversal=true&textBg=false&animation=blink&stroke=ff0000&fontColor=ffffff&strokeWidth=40&desc=Full%20Stack%20Web%20Development&descSize=12&descAlign=0)
+</a>
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3500&pause=1200&color=FF6B6B,FFD93D,6BCB77,4D96FF&center=true&vCenter=true&width=520&height=40&lines=React%20%2F%20Next.js%20Developer;Laravel%20%26%20Node.js%20Backend;Python%20for%20Data%20%26%20Colab;Clean%20Code%20%2C%20Real%20Products" alt="Typing SVG" />
