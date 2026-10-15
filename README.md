@@ -23,26 +23,20 @@
 
 ### 👨‍💻 About Me
 
-I’m **Aji Nur Aji**, a full-stack developer from **Indonesia** and an informatics student who builds things that are actually useful — not just impressive in a README.
+I’m **Aji Nur Aji** from **Indonesia** — an informatics student who actually builds things and ships them.
 
-I care more about **clarity** than cleverness. My work spans:
-- React / Next.js for modern interfaces
-- Laravel / Node.js for solid backends
-- Python side-quests in Colab when data gets interesting
+Most days I’m building with **React/Next.js** on the frontend, **Laravel/Node.js** on the backend, and occasionally dropping into **Python/Colab** when the problem gets interesting.
 
-My rule: **if it needs a tour guide, it’s bad code.**
+My actual rule: **if it needs documentation to explain itself, I rewrote it wrong.**
 
 ---
 
-### 🧭 Operating Principles
+### 🚀 What I’m Up To
 
-These are the defaults I design around:
-
-- **Clarity first** — readable code beats clever one-liners
-- **Ship over perfect** — real users > perfect git history
-- **Single responsibility** — one thing per component, file, and function
-- **No phantom complexity** — if junior devs need a map, simplify it
-- **DX matters** — good tooling, docs, and error messages are features
+- 🔭 Building real products, not portfolio filler
+- 🌱 Leveling up in system design and scalable architecture
+- 👯 Open to collabs on meaningful side projects
+- 💬 Ask me about **clean code**, **debugging at 2 AM**, or **why docs matter**
 
 ---
 

@@ -1,0 +1,128 @@
+<svg width="800" height="240" viewBox="0 0 800 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background radial glow -->
+    <radialGradient id="bgGlow" cx="24%" cy="50%" r="55%" fx="24%" fy="50%">
+      <stop offset="0%" stop-color="#9333ea" stop-opacity="0.32" />
+      <stop offset="42%" stop-color="#7c3aed" stop-opacity="0.14" />
+      <stop offset="78%" stop-color="#080612" stop-opacity="1" />
+      <stop offset="100%" stop-color="#080612" stop-opacity="1" />
+    </radialGradient>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#a855f7" stroke-width="1" stroke-opacity="0.06" />
+    </pattern>
+
+    <!-- Card border gradient -->
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Shield fill gradient -->
+    <linearGradient id="shieldBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#241445" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0f0a1f" stop-opacity="0.98" />
+    </linearGradient>
+
+    <!-- Bracket gradients -->
+    <linearGradient id="bracketGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3e8ff" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <linearGradient id="nuraGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5d0fe" />
+      <stop offset="40%" stop-color="#c084fc" />
+      <stop offset="80%" stop-color="#9333ea" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="byteTextGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d0fe" />
+      <stop offset="35%" stop-color="#c084fc" />
+      <stop offset="70%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+
+    <!-- Glow filters -->
+    <filter id="purpleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-font { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 900; }
+    .mono-font { font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', 'Courier New', monospace; }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="800" height="240" rx="20" fill="url(#bgGlow)" />
+  <rect width="800" height="240" rx="20" fill="url(#grid)" />
+  <rect width="798" height="238" x="1" y="1" rx="19" fill="none" stroke="url(#cardBorder)" stroke-width="1.5" />
+
+  <!-- Top Right Metadata -->
+  <g transform="translate(560, 26)">
+    <circle cx="0" cy="0" r="3.5" fill="#c084fc" filter="url(#purpleGlow)" />
+    <text x="12" y="4" class="mono-font" font-size="11" font-weight="600" fill="#c084fc" fill-opacity="0.75" letter-spacing="0.5">PORTFOLIO IDENTITY • EST. 2026</text>
+  </g>
+
+  <!-- Left Icon Container -->
+  <g transform="translate(48, 52)">
+    <!-- Outer Shield -->
+    <rect width="136" height="136" rx="28" fill="url(#shieldBg)" stroke="#c084fc" stroke-opacity="0.38" stroke-width="1.5" />
+    <rect width="136" height="136" rx="28" fill="none" stroke="#a855f7" stroke-opacity="0.4" stroke-width="2" filter="url(#softGlow)" />
+
+    <!-- Embedded Glyph in 96x96 space centered in 136x136 (offset by 20, 20) -->
+    <g transform="translate(20, 20)">
+      <!-- Left Code Bracket < -->
+      <path d="M28 32 L16 48 L28 64" stroke="url(#bracketGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#purpleGlow)" />
+
+      <!-- Right Code Bracket > -->
+      <path d="M68 32 L80 48 L68 64" stroke="url(#bracketGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#purpleGlow)" />
+
+      <!-- Stylized N Lettermark -->
+      <path d="M36 62 L36 34" stroke="url(#nuraGrad)" stroke-width="5.5" stroke-linecap="round" />
+      <path d="M36 34 L60 62" stroke="url(#nuraGrad)" stroke-width="5.5" stroke-linecap="round" />
+      <path d="M60 34 L60 62" stroke="url(#nuraGrad)" stroke-width="5.5" stroke-linecap="round" />
+
+      <!-- Byte Data Nodes -->
+      <circle cx="36" cy="34" r="3.5" fill="#FFFFFF" />
+      <circle cx="60" cy="62" r="3.5" fill="#FFFFFF" />
+      <circle cx="48" cy="48" r="2.8" fill="#f3e8ff" />
+    </g>
+  </g>
+
+  <!-- Brand Typography Stack (x = 222) -->
+  <g transform="translate(222, 66)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="198" height="24" rx="6" fill="#a855f7" fill-opacity="0.14" stroke="#a855f7" stroke-opacity="0.32" stroke-width="1" />
+    <text x="10" y="16" class="mono-font" font-size="11" font-weight="700" fill="#c084fc" letter-spacing="0.5">&lt;/&gt; SOFTWARE CRAFT &amp; SYSTEMS</text>
+
+    <!-- Main Title: NURABYTE. -->
+    <g transform="translate(0, 72)">
+      <text x="0" y="0" class="title-font" font-size="52" fill="#FFFFFF" letter-spacing="-0.5">NURA<tspan fill="url(#byteTextGrad)">BYTE</tspan><tspan fill="#c084fc" filter="url(#purpleGlow)">.</tspan></text>
+    </g>
+
+    <!-- Syntax Highlighted Code Subtitle -->
+    <g transform="translate(0, 106)">
+      <text x="0" y="0" class="mono-font" font-size="13.5" font-weight="500">
+        <tspan fill="#f43f5e" font-weight="700">const</tspan>
+        <tspan fill="#e2e8f0"> </tspan>
+        <tspan fill="#a78bfa">developer</tspan>
+        <tspan fill="#94a3b8"> = </tspan>
+        <tspan fill="#34d399">"Aji Nur Aji"</tspan>
+        <tspan fill="#94a3b8">;</tspan>
+      </text>
+      <!-- Glowing Cursor -->
+      <rect x="254" y="-12" width="8" height="15" rx="1.5" fill="#a855f7" filter="url(#purpleGlow)" />
+    </g>
+  </g>
+</svg>
