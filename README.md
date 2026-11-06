@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://ajinuraji.my.id">
-    <img src="nurabyte-banner.gif" alt="NuraByte - Aji Nur Aji" width="100%" />
+    <img src="banner.gif" alt="Aji Nur Aji - ajinuraji.my.id" width="100%" />
   </a>
 </div>
 
